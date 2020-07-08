@@ -18,6 +18,7 @@ Se debe definir las siguientes variables de entorno en un archivo *.env*, ubicad
 # SERVER CONFIG
 DEBUG=True
 SECRET_KEY=<su_clave_secreta>
+SECRET_KEY_JWT=<su_clave_secreta_de_jwt>
 
 # BD
 BD_ENGINE=django.db.backends.postgresql
